@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer">
+        <div id="header">A.V. College of arts science & commerce</div>
+        <div id="image">
+        <img  src="./amr1.jpg" height="100px">
+        </div>
+        <div id="details">
+        <h1 id="h11">Amruth Raj<br>
+            Age :  22<br>
+        Gender : male<br>
+        mobile : 9398320685<br>
+    Bloodgroup : O+<br>
+</h1>
+    </div>
+</div>
+    <script>
+
+let header=document.querySelector("#header")
+        header.style.height="40px"
+        header.style.width="400px"
+        header.style.backgroundColor="red"
+        
+        header.style.fontSize="20px"
+        header.style.display="flex"
+        header.style.alignItems="center"
+        header.style.justifyContent="center"
+        
+
+        let getouter=document.querySelector("div")
+        getouter.style.backgroundColor="skyblue"
+        getouter.style.border="1px solid black"
+        getouter.style.height="500px"
+        getouter.style.width="400px"
+
+        let getimage=document.querySelector("#image")
+        getimage.style.height="200px"
+        getimage.style.display="flex"
+        getimage.style.alignItems="center"
+        getimage.style.justifyContent="center"
+
+
+        let img1=document.querySelector("img")
+        img1.style.borderRadius="50%"
+        // img1.style.border="2px solid white"
+        img1.style.boxShadow="1px 1px 5px 5px grey"
+        img1.style.height="120px"
+        img1.style.width="120px"
+
+        let detail=document.getElementById("details")
+        detail.style.display="flex"
+        detail.style.alignItems="center"
+        detail.style.justifyContent="center"
+        // detail.style.backgroundColor="blue"
+        detail.style.height="260px"
+        detail.style.width="400px"
+
+        let h11=document.querySelector("#h11")
+        h11.style.display="flex"
+        h11.style.alignItems="center"
+        h11.style.justifyContent="center"
+
+        
+    </script>
+</body>
+</html>
